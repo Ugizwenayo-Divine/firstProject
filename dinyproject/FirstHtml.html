@@ -1,0 +1,498 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="First web page">
+        <meta name="author" content="Divine">
+        <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <meta http-equiv="refresh" content="30">
+        <style>
+            h1{
+                font-size: 50px;
+            }
+        li > b > a {
+            text-decoration: none;
+            color:white;
+            margin:0;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 25px;
+            /* width: 120px; */
+        }
+        li > a {
+            text-decoration: none;
+            color:white;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            font-size: 25px;
+        }
+        li{
+            display: inline;
+            
+        }
+        div{
+          display: inline-block;  
+        }
+        nav{
+            background-color:rgba(210, 105, 30, 0.103);
+            height: 50px;
+            opacity: 0.8;
+            margin-top: 60px;
+            margin-right:-8px; 
+            margin-left: -8px;
+            padding: 0;
+            overflow:hidden;
+            width: auto;
+        }
+
+        .nav-left ul{
+          padding-left: 0px; 
+          width:800px; 
+
+        }
+        .nav-left li{
+           padding-right:0px; 
+           margin-left: 50px;
+          
+        }
+        .nav-right li{
+          
+           margin-left: 10px;
+          
+        }
+        .nav-right {
+            margin-right: 100px;
+            float: right;
+            overflow: hidden;
+        }
+        .nav-left{
+            overflow: hidden;
+            margin-left: 200px;
+        }
+        .nav-right ul{
+            padding-right: 5px;
+        }
+        body{
+            /* background-image: url("real.jpg");
+            background-size:cover;
+            background-position: center;
+            -moz-background-size:cover; */
+            height: auto;
+            width: auto;
+        }
+        .logo h1{
+           font-family: Arial, Helvetica, sans-serif;
+           color: white;
+           opacity: 0.6;
+           
+        }
+        a:hover{
+            height:50px;
+           background-color: rgba(160, 77, 45, 0.349);
+        }
+        span > a:hover{
+            height: 40px;
+            width: 31px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+          background-color:none;
+          
+        }
+        header{
+            /* margin-top: 50px;
+            margin-right:-8px; 
+            margin-left: -8px; */
+           
+            text-align: center;
+        }
+        section{
+            
+            height: 50%;
+            /* padding: 50px 10px; */
+        }
+        section div{
+            display: inline-block;
+        }
+        .description{
+            float: right;
+
+            margin-top: -20px;
+            margin-right: 250px;
+            padding:20px;
+           
+        }
+        #pass1{
+            margin-top: 5px;
+            visibility: hidden;
+           
+        }
+        #spass1{
+            margin-top: 5px;
+            visibility: hidden;
+        }
+        .main p{
+            color: black;
+            font-size: 25px;
+        }
+        .copy{
+            color: white;
+        }
+        .main{
+            position: absolute;
+            background-color: beige;
+            border-radius: 2px;
+            opacity: 0.6;
+            height: 250px;
+            width: 250px;
+            margin-left: 250px;
+            margin-top: 80px;
+            padding:20px;
+           
+        }
+        .down{
+            position: absolute;
+            margin-left: 350px;
+            margin-top: 350px;
+            border-radius: 2px;
+            background-color:sienna;
+            height: 40px;
+            width: 100px;
+            text-align: center;
+        }
+        .srv{
+            position: absolute;
+            height: 390px;
+            width: 550px;
+           background-color: beige; 
+            margin-left: 650px;
+            margin-top: -370px; 
+            opacity:0.7; 
+            border-radius: 2px;
+            padding-left: 50px;
+            overflow: scroll;
+        }
+        .srv h2{
+            padding-left: 130px;
+        }
+        .srv p{
+            margin-top: 10px;
+        }
+        span > a{
+            position: absolute;
+            text-decoration: none;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            margin-left:-35px;
+            height: 2px;
+        }
+       
+        /* .service div{
+            display: inline-block;
+        } */
+        /* nav button{
+            text-decoration: none;
+            border: none;
+            background-color: sienna;
+            color:white;
+            width: 120px;
+            height: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        } */
+        .all{
+            background-image: url("real.jpg");
+            background-size:cover;
+            background-position: center;
+            -moz-background-size:cover;
+            width: 1349px;
+            margin-left: -8px;
+            margin-right: -4px;
+        }
+        .service{
+
+            margin-top: 150px;
+        
+                margin-left: 100px;
+            }
+            .service > h2{
+                text-align: center;
+            }
+            .aboutUs{
+                margin-top:250px;
+                margin-left:100px;
+            }
+            .aboutUs_right{
+                margin-top: 100px;
+                display:inline-block;
+                margin-left: 300px;
+            }
+            .aboutUs_right > h3{
+                margin-left: 37px;
+            }
+            .aboutUs_left{
+              float: left;  
+            }
+        .super li{
+            display: block;
+        }
+        #icon{
+            visibility: hidden;
+        }
+        .signIn{
+            position: absolute;
+            width: 350px;
+            height: 600px;
+            margin-top: 40px;
+            margin-left: 590px;
+            color:white;
+        }
+        .signIn > div{
+            text-align: center;
+        }
+       
+        input{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+
+            text-align: center;
+            margin-left: 0px;
+        }
+        .solution_left{
+            max-width:500px;
+            height: 300px; 
+        }
+        .solution_right{
+            margin-left:50px;
+            max-width:500px;
+            height: 300px; 
+        }
+        /* .solution_middle{
+            max-width:300px;
+            height: 500px; 
+        } */
+
+        @media only screen and (max-width:1223px){
+            .description{
+        		visibility: hidden;
+        	}  
+        }
+        @media only screen and (max-width: 800px){
+        	/*body{
+        		background-color: green;
+        	}*/
+        	ul li{
+        		display: inline-block;
+        	}
+            body{
+                max-width: 800px;
+            }
+            header{
+                max-width: 800px;
+                text-align: center;
+                margin-left: 0px;
+            }
+        	nav{
+        		max-width: 800px;
+        	}
+        	.nav-left{
+        		visibility: hidden;
+                margin-left: 0px;
+        	}
+        	.nav-right{
+        		max-width: 150px;
+        		overflow: hidden;
+        	}
+        	.middle{
+        		width: 150px;
+        	}
+            span{
+                font-size: 20px;
+     
+            }
+            .logo{
+                margin-left: 0px;
+                text-align: center;
+            }
+            .logo h1{
+                font-size: 30px;
+                margin-left: 0px;
+            }
+            .signIn{
+                margin-left: 120px;
+            }
+        	
+        	/* img{
+        		width: 50px;
+        		height: 50px;
+        	} */
+        	.main{
+                visibility: hidden;
+        		overflow: scroll;
+        		margin-left: 0px;
+        	}
+        	.down{
+        		visibility: hidden;
+        	}
+        	#icon{
+        		visibility: visible;
+        		float: left;
+        		width: 10px;
+                padding-right:20px; 
+                margin-left: 0px;
+        	}
+            .nav-left li{
+                padding-right:-5px; 
+        }
+            /*  .leftLi{
+        		display: block;
+        		height: 30px;
+        	}*/
+         
+        }
+        </style>
+<script type="text/javascript">
+    function services(){
+        
+    
+        var msg="";
+        document.getElementById("service").innerHTML=msg;
+    }
+    function hide(id){
+        document.getElementById(id).style.visibility="visible";
+        document.getElementById("spass1").style.visibility="visible";
+    }
+    function list(){
+        let leftUl = document.getElementById("leftUl");
+        /*if(leftUl.style.visibility&&leftUl.style.visibility==="visible")*/
+        if(leftUl.style.visibility==="visible")
+            leftUl.style.visibility="hidden";
+        else
+            leftUl.style.visibility="visible";
+    }
+    </script>
+    </head>
+    <body>
+<div class="all">
+<header>
+<div class="logo">
+   <h1>Super-Market-Online</h1> 
+</div>
+
+</header>
+<nav>
+        <div class="nav-left">
+            <ul id="leftUl">
+                <li><b><a href="" class="active">Home</a></b></li>
+                <li><b><a href="#service">Services</a></b></li>
+                <li><b><a href="#aboutUs">AboutUs</a></b></li>
+                <li id="icon"><b><a  href="javaScript:void(0)" onclick="list()">☰</a></b></li>
+            </ul></div>
+            <div class="nav-right">
+                <ul>
+                <li><a href="Signin.html"><b>SignUp |</b></a></li>
+                <li><a href="Login.html"><b>LogIn</b></a></li>
+            </ul>
+        </div>
+</nav>
+<section>
+        
+<div class="main">
+        <p> Online_Shops is here to easy everything </p>
+        <p>Get the products you want on the real price and in nearby shop   </p>
+        <p>Get all information!!!</p>
+  
+</div>
+<div class="signIn">
+    <div>
+        <h1>Online_Shops</h1>
+        <p style="font-size: 20px;">LogIn into your account now...</p>
+        <input type="text" placeholder="email" aria-required="true"  >
+        <span><a href="javaScript:void(0)" onclick="hide('pass1')">⇨</a></span>
+        <input type="password" id="pass1" placeholder="password" aria-required="true" >
+        <span><a id="spass1" href="javaScript:void(0)" onclick="hide('log')">⇨</a></span>
+        <button style="visibility: hidden; width: 150px; height: 40px; margin-top: 5px; border-radius: 5px;" id="log">LogIn</button>
+    </div>
+
+</div>
+<div class="description">
+        <img src="realg.jpg" width="650px" height="390px" style="border-radius: 2px;">
+</div>
+<div class="down">
+    <p style="color: beige; font-size: 15px;">
+        Thank you
+    </p>
+</div>
+</section>
+
+</div>
+<div class="service" id="service">
+    <h2>What our solution offers</h2> 
+        <div class="solution_left">
+            <p id='membership' >
+                <h3>Connnect you to SuperMarkets</h3>
+                <p>we easly help you to know the nearby supermarktes which have the products you are looking for.</p>
+                <p>we make you talk to their employees online </p>
+                <p>we can also help you to order online from those supermarkets</p>
+        
+           
+                <h3>Connnect you to the best real price</h3>
+                <p>we help you to know the price of the products you want before reaching the supermarkets</p>
+                <p>we make it easier for you to compare prices for different supermarkets</p>
+               
+            </p>
+        </div>
+        <div class="solution_right">
+            <p id='stock'>
+                <h3>Products we get you to </h3>
+                <p><wbr>we  deal with all products that are available in partnership SuperMarkets</p>
+                    <p>we also deal with other products available only online</p>
+            </p>
+        
+            
+            <p id='monitor'>
+                <h3>Monitoring & evaluation</h3>
+                <p>This website is secured and we can assure you the safety of the connected products</p>
+                <p>It is monitored by different people</p>
+                <p>It is always update for the availability of products and also the right price for products</p>
+                <p>It is evaluated by developers,users and also clients(supermarkets in partnership)</p>
+            </p>
+        </div>
+</div>
+<div class="aboutUs" id="aboutUs" style="display: block;">
+<div class="aboutUs_right">
+   
+    <h3>Partners</h3>
+    <ul class="super">
+        <li>Nakumat</li>
+        <li>T200</li>
+        <li>Sawa</li>
+    </ul>
+</div>
+<div class="aboutUs_left">
+    <h3>Why the website??</h3>
+    <p><wbr>This was developped to remove and totally avoid waste of time and money, </p>
+        <p>I mean some people take the car and go to supermarktes to buy something and by reaching there </p>
+        <p>they find that the products they are looking for, are not there.</p>
+    <p>so this website is the solution to that problem !!! </p>
+    <p>You don't need to reach to supermarkets without information of the products they have and their prices.</p>
+
+</div>
+
+</div>
+<footer>
+
+</div>
+<div>
+
+</div>
+<div>
+
+</div>
+</footer>
+</body>
+</html>

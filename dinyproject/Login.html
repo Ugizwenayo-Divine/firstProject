@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="First web page">
+            <meta name="author" content="Divine">
+            <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"
+            <meta http-equiv="refresh" content="30">
+            <style>
+
+        /* header{
+            margin-top: 20px;
+            margin-right:-8px; 
+            margin-left: -8px;
+           
+            text-align: center;
+        } */
+    
+        header{
+            /* margin-top: 50px;
+            margin-right:-8px; 
+            margin-left: -8px; */
+           
+            text-align: center;
+        }
+        .logo h1{
+           font-family: Arial, Helvetica, sans-serif;
+           color: white;
+           opacity: 0.6;
+           
+        }
+                a{
+            text-decoration: none;
+            
+            width: 120px;
+        
+        }
+        h1{
+                font-size: 50px;
+            }
+        li > b > a {
+            text-decoration: none;
+            color:white;
+            margin:0;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 25px;
+            /* width: 120px; */
+        }
+        li > a {
+            text-decoration: none;
+            color:white;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            font-size: 25px;
+        }
+        li{
+            display: inline;
+            
+        }
+        nav div{
+          display: inline-block;  
+        }
+        nav{
+            background-color:rgba(210, 105, 30, 0.103);
+            height: 50px;
+            opacity: 0.8;
+            margin-top: 60px;
+            margin-right:-8px; 
+            margin-left: -8px;
+            padding: 0;
+            overflow:hidden;
+            width: auto;
+        }
+
+        .nav-left ul{
+          padding-left: 0px; 
+          width:800px; 
+
+        }
+        .nav-left li{
+           padding-right:0px; 
+           margin-left: 50px;
+          
+        }
+        .nav-right li{
+          
+           margin-left: 10px;
+          
+        }
+        .nav-right {
+            margin-right: 200px;
+            float: right;
+            overflow: hidden;
+        }
+        .nav-left{
+            overflow: hidden;
+            margin-left: 10px;
+        }
+        .nav-right ul{
+            padding-right: 5px;
+        }
+
+               body{
+                background-image: url("real.jpg");
+            background-size:cover;
+            background-position: center;
+            -moz-background-size:cover;
+                
+               }
+              .loginBody input{
+                    display: block;
+                    border-radius: 2px;
+                    margin-bottom: 40px;
+                    height: 20px;
+                    background-color:snow;
+                  
+                   
+                }
+               label{
+                   color:white;
+                  font-size: 22px;
+                   margin-right: 60px;
+               }
+               h2{
+               color:black;    
+               }
+               input{
+                   color: black;
+               }
+               input[type=submit]{
+                   font-style: normal;
+               }
+                .loginTail{
+                    margin-bottom: 20px;
+                }
+            .login{
+                border:none 1px solid;
+                opacity:0.7;
+                
+                border-radius: 5px;
+                max-width: 300px;
+                text-align: center;
+                /* padding-top:10px;
+                padding-bottom: 20px; */
+                margin-left: 38.5%;
+                margin-right: 30%;
+                margin-top: 5%;
+                height: 350px;
+                background-color: rgba(210, 105, 30, 0.103);
+
+            }
+            .loginTitle{
+                height:50px;
+                margin-bottom: 20px;
+                background-color: snow;
+                padding-top:0.5px;
+                padding-bottom: 3px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .loginBody{
+               padding-top: 30px; 
+              padding-left:60px;
+              
+              /* margin-bottom: 100px; */
+            
+            }
+            .loginTail{
+                text-align: center;
+               
+            }
+            .loginTail input{
+                font-weight: bold;
+                border-radius: 1px;
+                height: 30px;
+                width:80px;
+                background-color: snow;
+               
+            }
+            </style>
+    </head>
+    <body>
+            <header>
+                    <div class="logo">
+                       <h1>Super-Market-Online</h1> 
+                    </div>
+                    
+                    </header>
+            <nav>
+                    <div class="nav-left">
+                        <ul>
+                            <li><b><a href="FirstHtml.html">Home</a></b></li>
+                            <li><b><a href="">Service</a></b></li>
+                            <li><b><a href="">AboutUs</a></b></li></ul></div>
+                        <div class="nav-right">
+                            <ul>
+                            <li><a href="Signin.html"><b>SignUp |</b></a></li>
+                            <li><a href="Login.html"><b>LogIn</b></a></li>
+                        </ul>
+                    </div>
+            </nav>
+            <div class="login">
+                <div class="loginTitle">
+                    <h2>LOGIN</h2>
+                </div>
+                <div class="loginBody">
+                   
+                        <label for="email"><b><i>Email</i></b></label>
+                        <input id="email" type="email" name="email">
+                        <label for="password"><b><i>Password</i></b></label>
+                        <input id="password" type="password" name="password">
+                </div>
+                <div class="loginTail">
+                        <input type="submit" value="LOGIN">
+                </div>
+            </div>
+    </body>
+
+</html>
